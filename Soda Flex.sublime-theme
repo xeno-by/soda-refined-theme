@@ -15,25 +15,30 @@
         "layer1.texture": "Theme - Soda/Soda Flex/full_button_indented.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": [6, 6],
-        "layer2.texture": "Theme - Soda/Soda Flex/blue_highlight.png",
-        "layer2.opacity": { "target": 0.0, "speed": 1.33, "interpolation": "smoothstep" },
+        "layer2.texture": "Theme - Soda/Soda Flex/full_button_hovered.png",
+        "layer2.opacity": 0.0,
         "layer2.inner_margin": [6, 6]
     },
     {
         "class": "button_control",
         "attributes": ["pressed"],
-        "layer0.opacity": 0,
-        "layer1.opacity": 1.0
-    },
-    {
-        "class": "button_control",
-        "attributes": ["pressed", "hover"],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0,
         "layer2.opacity": 0.0
     },
     {
         "class": "button_control",
         "attributes": ["hover"],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 0.0,
         "layer2.opacity": 1.0
+    },
+    {
+        "class": "button_control",
+        "attributes": ["pressed", "hover"],
+        "layer0.opacity": 0.0,
+        "layer1.opacity": 1.0,
+        "layer2.opacity": 0.0
     },
 
     /** Small Icon Buttons **/
