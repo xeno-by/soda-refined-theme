@@ -66,20 +66,7 @@
         // Inactive tab label
         "class": "tab_label",
         "fade": true,
-        "fg": [204, 204, 204],
-        "bg": [66, 66, 66]
-    },
-    {
-        // Inactive tab label hover
-        "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["hover"]}],
-        "bg": [75, 75, 75]
-    },
-    {
-        // Active tab label
-        "class": "tab_label",
-        "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-        "bg": [78, 78, 78]
+        "fg": [204, 204, 204]
     },
     // Tab close button
     {
@@ -100,7 +87,7 @@
         "content_margin": [8, 8]
     },
     {
-        // Tab close hover action
+        // Tab close button hover
         "class": "tab_close_button",
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
@@ -111,7 +98,7 @@
         "class": "tab_close_button",
         "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
         "layer0.texture": "Theme - Soda/Soda Dark/tab-dirty.png",
-        "layer0.opacity": 1.0, 
+        "layer0.opacity": 1.0,
         "layer1.opacity": 0.0
     },
     {
@@ -121,6 +108,23 @@
         "attributes": ["hover"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
+    },
+    // Tab close button hidden with highlight modified flag true
+    {
+        // Tab dirty state (close button hidden)
+        "class": "tab_control",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "attributes": ["dirty"],
+        "content_margin": [22, 6, 15, 4]
+    },
+    {
+        // Tab dirty button (close button hidden)
+        "class": "tab_close_button",
+        "settings": ["!show_tab_close_buttons", "highlight_modified_tabs"],
+        "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+        "content_margin": [8, 8],
+        "layer0.opacity": 1.0,
+        "layer1.opacity": 0.0
     },
 
 //
@@ -148,7 +152,7 @@
         "attributes": ["pressed"],
         "layer0.opacity": 0.0,
         "layer1.opacity": 1.0
-    },    
+    },
     {
         "class": "fold_button_control",
         "attributes": ["expanded"],
@@ -278,6 +282,16 @@
         "class": "sheet_container_control",
         "layer0.tint": [25, 25, 25],
         "layer0.opacity": 1.0
+    },
+
+//
+// GRID LAYOUT
+//
+
+    {
+        "class": "grid_layout_control",
+        "border_size": 1,
+        "border_color": [70, 70, 70]
     },
 
 //
@@ -421,7 +435,7 @@
         "shadow_offset": [0, 1]
     },
     // Sidebar file close
-    { 
+    {
         "class": "close_button",
         "layer0.texture": "Theme - Soda/Soda Dark/file-close.png",
         "layer0.opacity": 0.0,
