@@ -4,14 +4,6 @@
 // LABELS
 //
 
-    /*
-    {
-        "class": "label_control",
-        "color": [255, 255, 255],
-        "shadow_color": [24, 24, 24],
-        "shadow_offset": [0, -1]
-    },
-    */
     // General labels
     {
         "class": "label_control",
