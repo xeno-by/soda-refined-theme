@@ -58,6 +58,8 @@
 // BOTTOM PANEL BUTTONS
 //
 
+    // Buttons default state
+
     // Button group middle
     {
         "class": "icon_button_control",
@@ -70,57 +72,74 @@
     {
         "class": "icon_button_control",
         "attributes": ["left"],
-        "layer0.texture": "Theme - Soda/Soda Flex/left_button.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Flex/left_button.png"
     },
     // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
-        "layer0.texture": "Theme - Soda/Soda Flex/right_button.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Flex/right_button.png"
     },
     // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
         "layer0.texture": "Theme - Soda/Soda Flex/mini_button.png",
-        "layer0.opacity": 1.0,
         "layer0.draw_center": true
     },
-    {
-        "class": "icon_button_control",
-    },
-    /*
-    {
-        "class": "icon_button_control",
-        "attributes": ["hover", "selected"],
-        "layer2.opacity": 0.0
-    },
-    */
+
+    // Buttons selected state
+
+    // Button group middle selected
     {
         "class": "icon_button_control",
         "attributes": ["selected"],
-        "layer0.texture": "Theme - Soda/Soda Flex/middle_button_selected.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Flex/middle_button_selected.png"
     },
+    // Button group left selected
     {
         "class": "icon_button_control",
         "attributes": ["left", "selected"],
-        "layer0.texture": "Theme - Soda/Soda Flex/left_button_selected.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Flex/left_button_selected.png"
     },
+    // Button group right selected
     {
         "class": "icon_button_control",
         "attributes": ["right", "selected"],
-        "layer0.texture": "Theme - Soda/Soda Flex/right_button_selected.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Flex/right_button_selected.png"
     },
+    // Button group single selected
     {
         "class": "icon_button_control",
         "attributes": ["right", "left", "selected"],
-        "layer0.texture": "Theme - Soda/Soda Flex/mini_button_selected.png",
-        "layer0.opacity": 1.0
+        "layer0.texture": "Theme - Soda/Soda Flex/mini_button_selected.png"
+    },
+
+    // Buttons pressed state
+
+    // Button group middle pressed
+    {
+        "class": "icon_button_control",
+        "attributes": ["pressed"],
+        "layer0.texture": "Theme - Soda/Soda Flex/middle_button_selected.png"
+    },
+    // Button group left pressed
+    {
+        "class": "icon_button_control",
+        "attributes": ["left", "pressed"],
+        "layer0.texture": "Theme - Soda/Soda Flex/left_button_selected.png"
+    },
+    // Button group right pressed
+    {
+        "class": "icon_button_control",
+        "attributes": ["right", "pressed"],
+        "layer0.texture": "Theme - Soda/Soda Flex/right_button_selected.png"
+    },
+    // Button group single pressed
+    {
+        "class": "icon_button_control",
+        "attributes": ["right", "left", "pressed"],
+        "layer0.texture": "Theme - Soda/Soda Flex/mini_button_selected.png"
     },
 
     /** Scrollbars **/
