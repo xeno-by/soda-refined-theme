@@ -60,8 +60,6 @@
         "layer0.texture": "Theme - Soda/Soda Flex/middle_button.png",
         "layer0.inner_margin": [6, 6],
         "layer0.opacity": 1.0,
-        "layer2.texture": "Theme - Soda/Soda Flex/blue_highlight.png",
-        "layer2.opacity": 0.0,
         "content_margin": [4, 4]
     },
     {
@@ -85,8 +83,6 @@
     },
     {
         "class": "icon_button_control",
-        "attributes": ["hover"],
-        "layer2.opacity": 1.0
     },
     /*
     {
