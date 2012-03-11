@@ -54,7 +54,11 @@
         "layer0.texture": "Theme - Soda/Soda Flex/full_button_indented.png"
     },
 
-    /** Small Icon Buttons **/
+//
+// BOTTOM PANEL BUTTONS
+//
+
+    // Button group middle
     {
         "class": "icon_button_control",
         "layer0.texture": "Theme - Soda/Soda Flex/middle_button.png",
@@ -62,18 +66,21 @@
         "layer0.opacity": 1.0,
         "content_margin": [4, 4]
     },
+    // Button group left
     {
         "class": "icon_button_control",
         "attributes": ["left"],
         "layer0.texture": "Theme - Soda/Soda Flex/left_button.png",
         "layer0.opacity": 1.0
     },
+    // Button group right
     {
         "class": "icon_button_control",
         "attributes": ["right"],
         "layer0.texture": "Theme - Soda/Soda Flex/right_button.png",
         "layer0.opacity": 1.0
     },
+    // Button single
     {
         "class": "icon_button_control",
         "attributes": ["left", "right"],
