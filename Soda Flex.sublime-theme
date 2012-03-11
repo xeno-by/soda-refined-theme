@@ -33,32 +33,43 @@
         "shadow_offset": [0, 1]
     },
 
+//
+// STANDARD TEXT BUTTONS
+//
+
+    // Standard buttons (used for Find / Replace panel)
     {
         "class": "button_control",
         "content_margin": [6, 5, 6, 6],
         "min_size": [75, 0],
+        // Default button state
         "layer0.texture": "Theme - Soda/Soda Flex/full_button.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [6, 6],
+        // Pressed button setup
         "layer1.texture": "Theme - Soda/Soda Flex/full_button_indented.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": [6, 6],
+        // Hover button setup
         "layer2.texture": "Theme - Soda/Soda Flex/full_button_hovered.png",
         "layer2.opacity": 0.0,
         "layer2.inner_margin": [6, 6]
     },
     {
+        // Pressed button state
         "class": "button_control",
         "attributes": ["pressed"],
         "layer0.opacity": 0,
         "layer1.opacity": 1.0
     },
     {
+        // Hover button state
         "class": "button_control",
         "attributes": ["hover"],
         "layer2.opacity": 1.0
     },
     {
+        // Hover / Pressed button state
         "class": "button_control",
         "attributes": ["pressed", "hover"],
         "layer2.opacity": 0.0
