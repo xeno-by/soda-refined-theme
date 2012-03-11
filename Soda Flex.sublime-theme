@@ -55,13 +55,13 @@
     },
     {
         "class": "button_control",
-        "attributes": ["pressed", "hover"],
-        "layer2.opacity": 0.0
+        "attributes": ["hover"],
+        "layer2.opacity": 1.0
     },
     {
         "class": "button_control",
-        "attributes": ["hover"],
-        "layer2.opacity": 1.0
+        "attributes": ["pressed", "hover"],
+        "layer2.opacity": 0.0
     },
 
     /** Small Icon Buttons **/
