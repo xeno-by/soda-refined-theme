@@ -834,63 +834,77 @@
         "border_color": [80, 80, 80]
     },
 
+//
+// BOTTOM PANEL ICONS
+//
+
+    // Regex search button
     {
         "class": "icon_regex",
-        "layer0.texture": "Theme - Soda/Soda Flex/icons/find_regex.png",
+        "layer0.texture": "Theme - Soda/Soda Flex/icon-regex-on.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Case sensitive search button
     {
         "class": "icon_case",
-        "layer0.texture": "Theme - Soda/Soda Flex/icons/find_case.png",
+        "layer0.texture": "Theme - Soda/Soda Flex/icon-case-on.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Highlight results button
     {
         "class": "icon_highlight",
-        "layer0.texture": "Theme - Soda/Soda Flex/icons/find_highlight.png",
+        "layer0.texture": "Theme - Soda/Soda Flex/icon-highlight-on.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Search in selection button
     {
         "class": "icon_in_selection",
-        "layer0.texture": "Theme - Soda/Soda Flex/icons/find_inselection.png",
+        "layer0.texture": "Theme - Soda/Soda Flex/icon-selection-on.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Reverse search direction button
     {
         "class": "icon_reverse",
-        "layer0.texture": "Theme - Soda/Soda Flex/icons/find_reverse.png",
+        "layer0.texture": "Theme - Soda/Soda Flex/icon-reverse-on.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Match whole word search button
     {
         "class": "icon_whole_word",
-        "layer0.texture": "Theme - Soda/Soda Flex/icons/find_wholeword.png",
+        "layer0.texture": "Theme - Soda/Soda Flex/icon-word-on.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Search wrap button
     {
         "class": "icon_wrap",
-        "layer0.texture": "Theme - Soda/Soda Flex/icons/find_wrap.png",
+        "layer0.texture": "Theme - Soda/Soda Flex/icon-wrap-on.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Preserve case button
     {
         "class": "icon_preserve_case",
-        "layer0.texture": "Theme - Soda/Soda Flex/icons/replace_preserve_case.png",
+        "layer0.texture": "Theme - Soda/Soda Flex/icon-preserve-on.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Show search context button
     {
         "class": "icon_context",
-        "layer0.texture": "Theme - Soda/Soda Flex/icons/context.png",
+        "layer0.texture": "Theme - Soda/Soda Flex/icon-context-on.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+    // Use search buffer
     {
         "class": "icon_use_buffer",
-        "layer0.texture": "Theme - Soda/Soda Flex/icons/use_buffer.png",
+        "layer0.texture": "Theme - Soda/Soda Flex/icon-buffer-on.png",
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     }
