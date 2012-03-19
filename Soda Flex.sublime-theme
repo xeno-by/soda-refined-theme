@@ -322,22 +322,61 @@
         "attributes": ["selected"],
         "layer0.opacity": 1.0
     },
+    // Sidebar file close
     {
         "class": "close_button",
-        "layer0.texture": "Theme - Soda/Soda Flex/grey_x.png",
-        "layer0.opacity": 0.5,
+        "layer0.texture": "Theme - Soda/Soda Flex/file-close.png",
+        "layer0.opacity": 0.0,
         "layer0.inner_margin": 0,
         "content_margin": [8, 8]
     },
     {
         "class": "close_button",
-        "attributes": ["dirty"],
-        "layer0.texture": "Theme - Soda/Soda Flex/dirty_indicator.png"
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.opacity": 1.0
     },
     {
         "class": "close_button",
-        "attributes": ["hover"],
+        "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Flex/file-close-selected.png"
+    },
+    // Sidebar file dirty
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "layer0.texture": "Theme - Soda/Soda Flex/file-dirty.png",
         "layer0.opacity": 1.0
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+        "layer0.texture": "Theme - Soda/Soda Flex/file-close.png"
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Flex/file-dirty-selected.png"
+    },
+    {
+        "class": "close_button",
+        "attributes": ["dirty"], 
+        "parents": [{"class": "tree_row", "attributes": ["hover", "selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Flex/file-close-selected.png"
+    },
+
+
+    {
+        "class": "close_button",
+        "attributes": ["hover"],
+        "layer0.texture": "Theme - Soda/Soda Flex/file-close-hover.png"
+    },    
+    {
+        "class": "close_button",
+        "attributes": ["hover"],
+        "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+        "layer0.texture": "Theme - Soda/Soda Flex/file-close-selected.png"
     },
 
 //
