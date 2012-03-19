@@ -346,7 +346,7 @@
     // Sidebar container
     {
         "class": "sidebar_container",
-        "layer0.tint": [80, 80, 80],
+        "layer0.tint": [200, 200, 200],
         "layer0.opacity": 1.0,
         "layer0.draw_center": false,
         "layer0.inner_margin": [0, 0, 1, 0],
@@ -359,7 +359,7 @@
         "indent": 15,
         "indent_offset": 15,
         "indent_top_level": false,
-        "layer0.tint": [230, 230, 230],
+        "layer0.tint": [235, 235, 235],
         "layer0.opacity": 1.0,
         "dark_content": false
     },
