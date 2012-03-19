@@ -236,6 +236,11 @@
         "layer0.texture": "Theme - Soda/Soda Flex/overlay_dark_thumb_horizontal.png"
     },
 
+//
+// PANEL BACKGROUNDS
+//
+
+    // Bottom panel background
     {
         "class": "panel_control",
         "layer0.texture": "Theme - Soda/Soda Flex/panel-background.png",
@@ -243,6 +248,7 @@
         "content_margin": [0, 1],
         "layer0.opacity": 1.0
     },
+    // Quick panel background
     {
         "class": "overlay_control",
         "layer0.tint": [64, 64, 64],
@@ -332,6 +338,12 @@
         "attributes": ["hover"],
         "layer0.opacity": 1.0
     },
+
+//
+// SIDEBAR
+//
+
+    // Sidebar container
     {
         "class": "sidebar_container",
         "layer0.tint": [80, 80, 80],
@@ -340,6 +352,7 @@
         "layer0.inner_margin": [0, 0, 1, 0],
         "content_margin": [0, 0, 1, 0]
     },
+    // Sidebar tree
     {
         "class": "sidebar_tree",
         "row_padding": [8, 3],
@@ -404,7 +417,10 @@
         "min_size": [100, 0]
     },
 
-    /** Quick Panel **/
+//
+// QUICK PANEL
+//
+
     {
         "class": "quick_panel",
         "row_padding": [2, 1],
@@ -446,6 +462,10 @@
         "fg": [28, 177, 239, 255],
         "selected_fg": [166, 229, 255, 255]
     },
+//
+// MINI QUICK PANEL
+//
+
     {
         "class": "mini_quick_panel_row",
         "layer0.texture": "Theme - Soda/Soda Flex/panel_row.png",
