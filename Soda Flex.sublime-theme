@@ -898,10 +898,14 @@
         "layer0.texture": "Theme - Soda/Soda Flex/fold-open-hover.png"
     },
 
+//
+// GRID LAYOUT
+//
+
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [80, 80, 80]
+        "border_color": [120, 120, 120]
     },
 
 //
