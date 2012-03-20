@@ -535,9 +535,13 @@
         "selected_match_fg": [0, 0, 0, 255]
     },
 
+//
+// EMPTY WINDOW BACKGROUND
+//
+
     {
         "class": "sheet_container_control",
-        "layer0.tint": [64, 64, 64],
+        "layer0.tint": [75, 75, 75],
         "layer0.opacity": 1.0
     },
 
